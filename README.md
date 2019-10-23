@@ -1,9 +1,5 @@
 # Docker-commands
 
-## References
-### Docker Tutorial | Docker Tutorial for Beginners | What is Docker | Intellipaat
-#### https://youtu.be/RppfZGuLsmA
-
 ## Commands
 ### 1. Check existing docker version
 #### docker --version
@@ -40,3 +36,7 @@
 
 ### 12. Stop and Remove all the docker containers at at time
 #### docker rm -f $(docker ps -a -q)
+
+## References
+### Docker Tutorial | Docker Tutorial for Beginners | What is Docker | Intellipaat
+#### https://youtu.be/RppfZGuLsmA
