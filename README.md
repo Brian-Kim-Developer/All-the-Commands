@@ -1,7 +1,7 @@
 # Docker-commands
 
 <br/><br/>
-## Commands
+## Commands | () : type, [] : optional
 ### 1. Check existing docker version
 #### docker --version
 
@@ -37,6 +37,10 @@
 
 ### 12. Stop and Remove all the docker containers at at time
 #### docker rm -f $(docker ps -a -q)
+
+### 13. Rename a docker image
+#### docker tag (old_image) (new_image)
+#### docker rmi (old_image)
 
 <br/><br/>
 ## References
