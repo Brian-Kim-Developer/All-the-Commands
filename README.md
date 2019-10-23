@@ -1,9 +1,9 @@
 # Docker-commands
-### Frequently used commands for docker
 
 ## Reference
 #### https://youtu.be/RppfZGuLsmA
 
+## Commands
 ### 1. Check existing docker version
 #### docker --version
 
