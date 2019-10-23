@@ -42,6 +42,9 @@
 #### docker tag (old_image) (new_image)
 #### docker rmi (old_image)
 
+### 14. Rename a docker container
+#### docker rename (old_container) (new_container)
+
 <br/><br/>
 ## References
 ### Docker Tutorial | Docker Tutorial for Beginners | What is Docker | Intellipaat
