@@ -45,6 +45,14 @@
 ### 14. Rename a docker container
 #### docker rename (old_container) (new_container)
 
+### 15. Login docker
+#### docker login
+
+### 16. Push a docker image to docker hub - repository
+#### docker tag (original_image) (repository_name):(tagname)
+#### docker push (repository_name):(tagname)
+
+
 <br/><br/>
 ## References
 ### Docker Tutorial | Docker Tutorial for Beginners | What is Docker | Intellipaat
