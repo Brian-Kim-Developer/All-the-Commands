@@ -7,21 +7,21 @@
 #### selects an image on which you want to make changes
 #### creates a layer from a docker image.
 #### is always used at the first line of a docker file
-#### An example) FROM (image)
+```FROM (image)```
 
 ### 2. ADD
 #### adds all files from a directory to inside of a docker container
-#### An example) ADD . /var/www/html
+```ADD . /var/www/html```
 
 ### 3. COPY
 #### adds all files from a directory to inside of a docker container
-#### An example) COPY . /app
+```COPY . /app```
 
 ### 2. RUN
 #### executes command(s) in a new layer and creates a new image
 #### is often used for installing software packages
-#### An example) RUN apt-get update
-#### An example) RUN apt-get -y install apache2
+```RUN apt-get update```
+```RUN apt-get -y install apache2```
 
 ### 2. CMD
 #### sets default command and/or parameters, which can be overwritten from command line when docker container runs
