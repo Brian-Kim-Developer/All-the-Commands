@@ -17,20 +17,26 @@
 #### adds all files from a directory to inside of a docker container
 ```COPY . /app```
 
-### 2. RUN
+### 4. RUN
 #### executes command(s) in a new layer and creates a new image
 #### is often used for installing software packages
-```RUN apt-get update```
+```RUN apt-get update```<br/>
 ```RUN apt-get -y install apache2```
 
-### 2. CMD
+### 5. CMD
 #### sets default command and/or parameters, which can be overwritten from command line when docker container runs
+```CMD ["npm", "start"]```
 
-### 2. ENTRYPOINT
+### 6. ENTRYPOINT
 #### configures a container that will run as an executable
 
-### 2. ENV
-#### 
+### 7. ENV
+#### sets environment variable
+```ENV PATH /usr/src/app/node_modules/.bin:$PATH```
+
+### 8. WORKDIR
+#### sets current working directory
+```WORKDIR /usr/src/app```
 
 <br/><br/>
 ## The bottem line
