@@ -117,5 +117,19 @@
 
 At this point, back-end is running on PORT 5000, and front-end is running on PORT 3000.
 
-### 10. 
+### 10. .gitignore example in root directory - Remove .gitignore and READ.ME file within client directory.
+```
+node_modules/
 
+/client/build
+
+.DS_Store
+/client/.env.local
+/client/.env.development.local
+/client/.env.test.local
+/client/.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+```
