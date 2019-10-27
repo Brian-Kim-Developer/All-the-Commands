@@ -134,4 +134,20 @@ yarn-debug.log*
 yarn-error.log*
 ```
 
-### 11. 
+### 11. Install requried dependencies for front-end within client directory
+```cd client```<br/>
+```npm install axios react-router-dom uuid react-transition-group```<br/><br/>
+```axios``` is for using HTTP client.<br/>
+```react-router-dom``` contains the DOM bindings for React Router.<br/>
+```uuid``` is ID-generater which is used before using API during development cycle.<br/>
+```react-transition-group``` is for animation.
+
+### 12. Run dev script in root directory
+```cd ..```<br/>
+```npm run dev```<br/>
+
+### 13. Remove following files within src directory.
+```App.test.js```<br/>
+```index.css```<br/>
+```logo.svg```<br/>
+```serviceWorker.js```
